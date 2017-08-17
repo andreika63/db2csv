@@ -8,12 +8,12 @@
     <artifactId>db2csv</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    <!--install:install-file -Dfile=ojdbc6.jar -DgroupId=local.jdbc -DartifactId=ojdbc6 -Dversion=11.1.0.7.0-Production -Dpackaging=jar-->
     <dependencies>
         <dependency>
             <groupId>local.jdbc</groupId>
-            <artifactId>ojdbc14</artifactId>
-            <version>10.2.0.5.0</version>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.1.0.7.0-Production</version>
         </dependency>
     </dependencies>
     <build>
